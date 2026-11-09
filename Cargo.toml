@@ -1,0 +1,10 @@
+[package]
+name = "wisk"
+version = "0.1.0"
+edition = "2024"
+authors = ["Nonelop <morlksaq@gmail.com>"]
+description = "Simple algebraic crate"
+license = "MIT"
+repository = "https://github.com/nonelop/Wisk"
+
+[dependencies]
