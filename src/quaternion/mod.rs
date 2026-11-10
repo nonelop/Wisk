@@ -1,5 +1,7 @@
 pub mod ops;
-pub mod tests;
+
+#[cfg(test)]
+mod tests;
 
 use super::vector::Vector3;
 

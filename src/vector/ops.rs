@@ -94,6 +94,14 @@ impl Mul<f64> for Vector3 {
     }
 }
 
+impl MulAssign<f64> for Vector3 {
+    fn mul_assign(&mut self, rhs: f64) {
+        self.x *= rhs;
+        self.y *= rhs;
+        self.z *= rhs;
+    }
+}
+
 impl Div for Vector3 {
     type Output = Vector3;
 
@@ -128,6 +136,6 @@ impl Div<f64> for Vector3 {
 
 impl fmt::Display for Vector3 {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "[{:.4}, {:.4}, {:.4}]", self.x, self.y, self.z)
+        return write!(f, "[{:.4}, {:.4}, {:.4}]", self.x, self.y, self.z);
     }
 }

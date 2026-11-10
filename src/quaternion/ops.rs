@@ -80,6 +80,6 @@ impl MulAssign for Quaternion {
 
 impl fmt::Display for Quaternion {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        return write!(f, "[{:.4}, {:.4}, {:.4} {:.4}]", self.w, self.x, self.y, self.z);
+        return write!(f, "[{:.4}, {:.4}, {:.4}, {:.4}]", self.w, self.x, self.y, self.z);
     }
 }
