@@ -6,5 +6,6 @@ authors = ["Nonelop <morlksaq@gmail.com>"]
 description = "Simple algebraic crate"
 license = "MIT"
 repository = "https://github.com/nonelop/Wisk"
+readme = "README.md"
 
 [dependencies]
